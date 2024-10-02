@@ -1,0 +1,6 @@
+POST https://api.groq.com/openai/v1/chat/completions HTTP/1.1
+Authorization: Bearer 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
+Content-Type: application/json
+Content-Length: 298
+
+{"messages": [{"role": "user", "content": "Explain the importance of fast language models"}], "model": "llama3-8b-8192"}
